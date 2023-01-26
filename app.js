@@ -25,9 +25,6 @@ CPFtxt.addEventListener(`keyup`, function (e) {
 
     console.log(caractere)
 
-    if(caractere !== `0` && caractere !== `1` && caractere !== `2` && caractere !== `3` && caractere !== `4` && caractere !== `5` && caractere !== `6` && caractere !== `7` && caractere !== `8` && caractere !== `9`) {
-        document.getElementById(`CPFtxt`).value = CPFtxt.value.substring(0, CPFtxt.value.length -1)
-    }
     
     if (CPFtxt.value.length == 3 || CPFtxt.value.length == 7) {CPFtxt.value += `.`}
     if (CPFtxt.value.length == 11) {CPFtxt.value += `-`}
