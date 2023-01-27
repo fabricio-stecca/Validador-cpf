@@ -18,7 +18,7 @@ button.addEventListener(`click`, (e) => {
 
 })
 
-CPFtxt.addEventListener(`keyup`, function (e) {
+CPFtxt.addEventListener(`keypress`, function (e) {
 
     let CPFtxt = document.getElementById(`CPFtxt`)
     let caractere = e.key
